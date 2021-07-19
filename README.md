@@ -7,3 +7,5 @@ Search restaurants with menus that fit the price Reactive Web.
            페이지 이동 구현.
 
 (21-07-19) 회원가입 항목 설계.
+           식당항목 설계.
+           로그인 항목 설계.

@@ -42,6 +42,133 @@ a {
     font-size: 24px;
     color: brown;
 }
+.form_login {
+    position:absolute;
+    width:300px;
+    height:450px;
+    padding: 30px, 20px;
+    background-color: bisque;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.form_login h1 {
+    text-align: center;
+    color: chocolate;
+
+}
+
+.form_id {
+    border-bottom: 3px dashed brown;
+    margin: 30px;
+    padding: 10px 10px;
+}
+
+.id {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 25px;
+    background: white;
+}
+
+.form_pw {
+    border-bottom: 3px dashed brown;
+    margin: 30px;
+    padding: 10px 10px;
+}
+
+.pw {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 25px;
+    background: white;
+}
+
+.button_login {
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    width: 80%;
+    height: 40px;
+    background-position: left;
+    background-size: 200%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+
+.button_find_id {
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    width: 80%;
+    height: 40px;
+    background-position: left;
+    background-size: 200%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+
+.button_find_pw {
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    width: 80%;
+    height: 40px;
+    background-position: left;
+    background-size: 200%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+
+.button_login:hover {
+    background-color:brown;
+}
+
+.button_find_id:hover {
+    background-color:brown;
+}
+
+.button_find_pw:hover {
+    background-color:brown;
+}
+
+.button_login:active {
+    background-color:darkred;
+}
+
+.button_find_id:active {
+    background-color:darkred;
+}
+
+.button_find_pw:active {
+    background-color:darkred;
+}
+
 .footbar {
     position:fixed;
     bottom:0;
@@ -50,9 +177,8 @@ a {
     text-align: center;
     background-color: bisque;
     color: chocolate;
-
-
 }
+
 
 /* Responsive Web */
 @media screen and (max-width: 768px)  {

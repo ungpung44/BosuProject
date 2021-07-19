@@ -42,7 +42,30 @@
         <!-- Section -->
         <section class="content">
             <p>programtest</p>
-            <input type="button" name="checkID" value="중복확인">
+            <div id="foodSelect">
+                음식 선택<br>
+                전체<input type="radio" name="foodselect" value="jeonche" checked>
+                한식<input type="radio" name="foodselect" value="hansik">
+                중식<input type="radio" name="foodselect" value="jungsik">
+                일식<input type="radio" name="foodselect" value="ilsik">
+                양식<input type="radio" name="foodselect" value="yangsik">
+                분식<input type="radio" name="foodselect" value="bunsik">
+            </div>
+            <br>
+            <div id="wellbeingSelect">
+                웰빙 옵션(옵션)<br>
+                <input type="checkbox" name="wellbeingSelect" value="vegetable">채식<br>
+                <input type="checkbox" name="wellbeingSelect" value="lowSalt">저염식<br>
+                <input type="checkbox" name="wellbeingSelect" value="healthy">건강식
+            </div>
+            <br>
+            <div id="insertMoney">
+                금액 입력(옵션)<br>
+                <input type="number" name="money" value="">
+            </div>
+            <br>
+            <input type="submit" name="" value="검색하기">
+            
         </section>
         <!-- Foot bars -->
         <footer class="footbar">

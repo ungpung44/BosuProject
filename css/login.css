@@ -62,7 +62,7 @@ a {
 }
 
 .form_id {
-    border-bottom: 3px dashed brown;
+
     margin: 30px;
     padding: 10px 10px;
 }
@@ -74,10 +74,10 @@ a {
     font-size: 16px;
     height: 25px;
     background: white;
+    border-bottom: 3px dashed brown;
 }
 
 .form_pw {
-    border-bottom: 3px dashed brown;
     margin: 30px;
     padding: 10px 10px;
 }
@@ -89,6 +89,7 @@ a {
     font-size: 16px;
     height: 25px;
     background: white;
+    border-bottom: 3px dashed brown;
 }
 
 .button_login {

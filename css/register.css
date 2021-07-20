@@ -3,6 +3,12 @@ body {
     margin: 0;
     font-family: 'Source Sans Pro';
 }
+main {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    bottom: 80%;
+}
 a {
     text-decoration: none;
     color: chocolate;
@@ -42,16 +48,223 @@ a {
     font-size: 24px;
     color: brown;
 }
+
+.form_register {
+    position:absolute;
+    width:300px;
+    height:1000px;
+    padding: 30px, 20px;
+    background-color: bisque;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.form_id {
+    text-align: center;
+    font-size: 24px;
+    color: chocolate;
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+.form_id .user_id {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 3px dashed brown;
+    height: 25px;
+    background: white;
+}
+
+.button_check_id {
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    background-position: left;
+    background-size: 200%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+
+.form_pw {
+    text-align: center;
+    font-size: 24px;
+    color: chocolate;
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+.form_pw .user_pw1 {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 3px dashed brown;
+    height: 25px;
+    background: white;
+}
+
+.form_pw .user_pw2 {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 3px dashed brown;
+    height: 25px;
+    background: white;
+}
+
+.button_check_pw {
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    background-position: left;
+    background-size: 200%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+
+.form_name {
+    text-align: center;
+    font-size: 24px;
+    color: chocolate;
+    margin: 30px;
+    padding: 10px 10px;
+}
+
+.form_name .user_name {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 3px dashed brown;
+    height: 25px;
+    background: white;
+}
+
+.form_birth {
+    text-align: center;
+    font-size: 24px;
+    color: chocolate;
+    margin: 30px;
+    padding: 10px 10px;
+}
+
+.form_birth .year {
+    width: 31%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 3px dashed brown;
+    height: 25px;
+    background: white;
+}
+
+.form_birth .month {
+    width: 31%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 3px dashed brown;
+    height: 25px;
+    background: white;
+}
+
+.form_birth .day {
+    width: 31%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 3px dashed brown;
+    height: 25px;
+    background: white;
+}
+
+.form_gender {
+        text-align: center;
+        font-size: 24px;
+        color: chocolate;
+        margin: 30px;
+        padding: 10px 10px;
+}
+
+.form_gender .female {
+    border-bottom: 3px dashed brown;
+}
+
+.form_gender .male {
+    border-bottom: 3px dashed brown;
+}
+
+.form_gender .radio_gender {
+    content: "";
+    font-size: 12px;
+}
+
+.form_email {
+    text-align: center;
+    font-size: 24px;
+    color: chocolate;
+    margin: 30px;
+    padding: 10px 10px;
+}
+
+.form_email .user_email {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 3px dashed brown;
+    height: 25px;
+    background: white;
+}
+
+.form_done .button_done {
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    background-position: left;
+    background-size: 200%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+
 .footbar {
-    position:fixed;
-    bottom:0;
+    position: fixed;
+    bottom: 0%;
     width: 100%;
     font-size: 24px;
     text-align: center;
     background-color: bisque;
     color: chocolate;
-
-
 }
 
 /* Responsive Web */

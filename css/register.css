@@ -3,12 +3,7 @@ body {
     margin: 0;
     font-family: 'Source Sans Pro';
 }
-main {
-    position: absolute;
-    left: 50%;
-    top: 65%;
-    bottom: 80%;
-}
+
 a {
     text-decoration: none;
     color: chocolate;
@@ -50,16 +45,25 @@ a {
 }
 
 .form_register {
-    position:absolute;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
     width:300px;
-    height:1000px;
+    height:1100x;
     padding: 30px, 20px;
     background-color: bisque;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: auto;
+    left: auto;
+    bottom: auto;
     border-radius: 15px;
+}
+
+.form_id h1 {
+    font-size: 32px;
+    text-align: center;
+    color: chocolate;
+
 }
 
 .form_id {
@@ -258,13 +262,15 @@ a {
 }
 
 .footbar {
-    position: fixed;
+    position: relative;
     bottom: 0%;
     width: 100%;
     font-size: 24px;
     text-align: center;
     background-color: bisque;
     color: chocolate;
+    padding: 8px 12px;
+    margin-top: 20px;
 }
 
 /* Responsive Web */

@@ -1,9 +1,26 @@
-/* Header */
+.bg {
+    background-color:rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+}
+
 body {
     margin: 0;
     font-family: 'Source Sans Pro';
+    background-image: url("../pic/wallpaper\ 1920_1080.jpg");
+    background-repeat: no-repeat;
+    -ms-overflow-style: none;
 }
+
+::-webkit-scrollbar { display: none; }
+
+section {
+    margin-top: 20px;
+}
+
 a {
+    font-weight: bold;
     text-decoration: none;
     color: chocolate;
 }
@@ -42,20 +59,139 @@ a {
     font-size: 24px;
     color: brown;
 }
+
+.form_program {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 550px;
+    padding: 30px 20px;
+    background-color: bisque;
+    opacity: 0.9;
+    text-align: center;
+    top: auto;
+    left: auto;
+    border-radius: 15px;
+}
+
+.form_category_food h1 {
+    font-size: 32px;
+    color: chocolate;
+}
+
+.form_category_food #details_food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 24px;
+    color: chocolate;
+}
+
+.form_category_wellbeing h1 {
+    font-size: 32px;
+    color: chocolate;
+}
+
+.form_category_wellbeing #details_wellbeing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 24px;
+    color:chocolate;
+}
+
+.form_category_wellbeing #details_wellbeing input[type="checkbox"] {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px dashed #bcbcbc;
+	cursor: pointer;
+}
+
+.form_category_wellbeing #details_wellbeing input[type="checkbox"] + label {
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 3px dashed brown;
+}
+
+.form_category_money h1 {
+    font-size: 32px;
+    color: chocolate;
+}
+
+.form_category_money #details_money {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 24px;
+    color:chocolate;
+}
+
+.form_category_money #details_money #input_money {
+    width: 70%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 3px dashed brown;
+    height: 25px;
+}
+
+.form_category_money #details_money #button_no_money {
+    left: 40%;
+    width: 100px;
+    height: 40px;
+    transition: 0.4s;
+    display: inline;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.form_program .button_done {
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    background-position: left;
+    background-size: 200%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+    background-color: chocolate;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
 .footbar {
-    position:fixed;
+    font-weight: bold;
+    position:relative;
     bottom:0;
     width: 100%;
     font-size: 24px;
     text-align: center;
     background-color: bisque;
     color: chocolate;
+    padding: 8px 12px;
+    margin-top: 20px;
 
 
 }
 
 /* Responsive Web */
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 1000px)  {
     .navbar {
         flex-direction: column;
         align-items: flex-start;

@@ -24,8 +24,7 @@
         <!-- Top bars -->
         <nav class="navbar">
             <div class="navbar_logo">
-                <i class="fas fa-apple-alt"></i>
-                <a href="">BosuLogo</a>
+                <a href="">BosuMap</a>
             </div>
             <ul class="navbar_menu">
                 <!-- (li>a)*5-->
@@ -39,46 +38,68 @@
                 <i class="fas fa-bars"></i>
             </a>
         </nav>
+        <!-- Background Image -->
+        <div class="bg"></div>
         <!-- Section -->
-        <section class="content">
-            <p>programtest</p>
+        <section>
             <form action="../program.html" method="POST" class="form_program">
-                <div class="form_foodcategory">
+                <div class="form_category_food">
                     <h1>CHOOSE YOUR FOOD!</h1>
-                    <span>전체</span>
+                    <div id="details_food">
+                        <div id="food_all">
+                            <i class="fas fa-globe"></i>
+                            <p>전체</p>
+                        </div>
+                        <div id="food_korean">
+                            <i class="fas fa-pepper-hot"></i>
+                            <p>한식</p>
+                        </div>
+                        <div id="food_chinese">
+                            <i class="fas fa-egg"></i>
+                            <p>중식</p>
+                        </div>
+                        <div id="food_japanese">
+                            <i class="fas fa-fish"></i>
+                            <p>일식</p>
+                        </div>
+                        <div id="food_american">
+                            <i class="fas fa-pizza-slice"></i>
+                            <p>양식</p>
+                        </div>
+                        <div id="food_snack">
+                            <i class="fas fa-cookie"></i>
+                            <p>분식</p>
+                        </div>
+                    </div>
                 </div>
-                <div class=""></div>
+                <div class="form_category_wellbeing">
+                    <h1>SELECT HEALTHY FOOD!</h1>
+                    <div id="details_wellbeing">
+                        <input type="checkbox" id="vegitable">
+                        <label for="vegitable">채식</label>
+                        <input type="checkbox" id="lowSalt">
+                        <label for="lowSalt">저염식</label>
+                        <input type="checkbox" id="healthy">
+                        <label for="healthy">건강식</label>
+                    </div>
+                </div>
+                <div class="form_category_money">
+                    <h1>INPUT YOUR MONEY!</h1>
+                    <div id="details_money">
+                        <input type="number" id="input_money" value="">
+                        <button type="button" id="button_no_money" onclick="button()">
+                            입력안함
+                        </button>
+                    </div>   
+                </div>
+                <button type="button" class="button_done" onclick="button()">
+                    검색하기
+                </button>
             </form>
-            <div id="foodSelect">
-                음식 선택<br>
-                전체<input type="radio" name="foodselect" value="jeonche" checked>
-                한식<input type="radio" name="foodselect" value="hansik">
-                중식<input type="radio" name="foodselect" value="jungsik">
-                일식<input type="radio" name="foodselect" value="ilsik">
-                양식<input type="radio" name="foodselect" value="yangsik">
-                분식<input type="radio" name="foodselect" value="bunsik">
-            </div>
-            <br>
-            <div id="wellbeingSelect">
-                웰빙 옵션(옵션)<br>
-                <input type="checkbox" name="wellbeingSelect" value="vegetable">채식<br>
-                <input type="checkbox" name="wellbeingSelect" value="lowSalt">저염식<br>
-                <input type="checkbox" name="wellbeingSelect" value="healthy">건강식
-            </div>
-            <br>
-            <div id="insertMoney">
-                금액 입력(옵션)<br>
-                <input type="number" name="money" value="">
-            </div>
-            <br>
-            <input type="submit" name="" value="검색하기">
-            
+            <!-- Foot bars -->
+            <footer class="footbar">
+                <p> Made by Team BOSU </p>
+            </footer>
         </section>
-        <!-- Foot bars -->
-        <footer class="footbar">
-            <p> Made by Team BOSU </p>
-            
-        </footer>
-
     </body>
 </html>

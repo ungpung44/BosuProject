@@ -1,9 +1,22 @@
-/* Header */
+.bg {
+    background-color:rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+}
+
 body {
     margin: 0;
     font-family: 'Source Sans Pro';
+    background-image: url("../pic/wallpaper\ 1920_1080.jpg");
+    background-repeat: no-repeat;
+    -ms-overflow-style: none;
 }
+
+::-webkit-scrollbar { display: none; }
+
 a {
+    font-weight: bold;
     text-decoration: none;
     color: chocolate;
 }
@@ -46,10 +59,12 @@ a {
     position:relative;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
     width:300px;
     height:450px;
     padding: 30px, 20px;
     background-color: bisque;
+    opacity: 0.9;
     text-align: center;
     top: auto;
     left: auto;
@@ -173,6 +188,7 @@ a {
 }
 
 .footbar {
+    font-weight: bold;
     position:relative;
     bottom:0;
     width: 100%;
@@ -186,7 +202,7 @@ a {
 
 
 /* Responsive Web */
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 1000px)  {
     .navbar {
         flex-direction: column;
         align-items: flex-start;

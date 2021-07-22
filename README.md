@@ -12,3 +12,6 @@ Search restaurants with menus that fit the price Reactive Web.
            로그인 CSS 작업.
 
 (21-07-20) 회원가입 CSS 작업.
+
+(21-07-21) 상단바 하단바 겹침 문제 해결. 
+           로그인 CSS, 회원가입 CSS 작업.

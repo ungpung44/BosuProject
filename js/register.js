@@ -19,7 +19,7 @@ window.onload = function() {
     dbform.onclick = dbconnect;
 }
 function dbconnect() {
-    dbform.action = "../database.jsp";
+    dbform.action = "database.jsp";
     dbform.method = "post";
     dbform.submit();
 }

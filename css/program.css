@@ -73,6 +73,11 @@ a {
     top: auto;
     left: auto;
     border-radius: 15px;
+    /* Animation Effect */
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
 }
 
 .form_category_food h1 {
@@ -170,11 +175,6 @@ a {
     border: none;
 }
 
-
-
-
-
-
 .footbar {
     font-weight: bold;
     position:relative;
@@ -214,5 +214,45 @@ a {
 
     .navbar_menu.active {
         display: flex;
+    }
+
+    .form_program {
+        width: 450px;
+    }
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+@-moz-keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+@-o-keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
     }
 }

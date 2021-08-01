@@ -55,6 +55,7 @@ a {
     font-size: 24px;
     color: brown;
 }
+
 .form_login {
     position:relative;
     margin-left: auto;
@@ -69,6 +70,11 @@ a {
     top: auto;
     left: auto;
     border-radius: 15px;
+    /* Animation Effect */
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
 }
 
 .form_login h1 {
@@ -200,7 +206,6 @@ a {
     margin-top: 20px;
 }
 
-
 /* Responsive Web */
 @media screen and (max-width: 1000px)  {
     .navbar {
@@ -225,5 +230,41 @@ a {
 
     .navbar_menu.active {
         display: flex;
+    }
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+@-moz-keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+@-o-keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
     }
 }

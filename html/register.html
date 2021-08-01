@@ -15,10 +15,17 @@
         <title>팀 보수 프로젝트</title>
 
         <!-- External Resources -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://kit.fontawesome.com/69b73ca6e6.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+        <script>
+            $(function(){
+                
+            })
+        </script>
     </head>
     <body>
         <!-- Top bars -->
@@ -47,6 +54,7 @@
                     <h1>REGISTER!</h1>
                     아이디
                     <input type="text" class="user_id" placeholder="ID">
+                    <div class="check_font" id="id_check"></div>
                 </div>
             <button type="button" class="button_check_id" onclick="button()">
                 중복확인
@@ -151,10 +159,14 @@
                     이메일<br>
                     <input type="email" class="user_email" placeholder="address@gmail.com">
                 </div>
+                <div class="dbform">
+                    <input type="submit" id="btnDatabase" value="DB 연결"/>
+                </div>
                 <div class="form_done">
                     <button type="button" class="button_done" onclick="button()">
                         가입하기
                     </button>
+                    
                 </div>
             </form>
             <!-- Foot bars -->
